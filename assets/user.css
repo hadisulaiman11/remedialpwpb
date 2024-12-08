@@ -1,0 +1,65 @@
+/* Reset dasar */
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya untuk body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Gaya untuk container */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Margin top untuk container */
+.mt-5 {
+    margin-top: 50px;
+}
+
+/* Gaya untuk judul */
+h1 {
+    font-size: 24px;
+    color: #6200ea;
+    margin-bottom: 10px;
+}
+
+/* Gaya untuk paragraf */
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Gaya untuk tombol logout */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+/* Gaya tombol warna merah */
+.btn-danger {
+    background-color: #e53935;
+    color: white;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c62828;
+}
